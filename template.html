@@ -2651,38 +2651,79 @@ After updating your Stripe account, navigate to the Stripe Account
 
 
 
-      <!-- COPYRIGHT -->
-      <table width="100%" role="presentation" cellpadding="0" cellspacing="0">
-        <tr>
-          <td align="center">
-            <div
-              style="
-                font-family: 'Manrope', Arial, Helvetica, sans-serif;
-                font-size: 12px;
-                line-height: 20px;
-                color: #ffffff;
-                text-align: center;
-              "
-            >
-              <div style="font-style: italic">
-                Copyright © *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.
-              </div>
-              <div style="margin-top: 6px">
-                SwimTopia does not sell or share your contact details.
-              </div>
-              <div style="margin-top: 8px">
-                <a href="*|UPDATE_PROFILE|*" style="color:#ffffff;text-decoration:underline">Update preferences</a>
-                &nbsp;|&nbsp;
-                <a href="*|UNSUB|*" style="color:#ffffff;text-decoration:underline">Unsubscribe</a>
-              </div>
-            </div>
-          </td>
-        </tr>
-      </table>
+<!-- COPYRIGHT -->
+<table width="100%" role="presentation" cellpadding="0" cellspacing="0">
+  <tr>
+    <td align="center">
+      <div
+        style="
+          font-family: 'Manrope', Arial, Helvetica, sans-serif;
+          font-size: 12px;
+          line-height: 20px;
+          color: #ffffff;
+          text-align: center;
+        "
+      >
+        <div style="font-style: italic">
+          Copyright © *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.
+        </div>
 
+        <div style="margin-top: 6px">
+          SwimTopia does not sell or share your contact details with outside companies.
+        </div>
+
+        <div style="margin-top: 10px">
+          Read our
+          <a
+            href="https://www.swimtopia.com/blog/"
+            target="_blank"
+            style="color:#ffffff;text-decoration:underline;font-weight:700"
+          >
+            blog
+          </a>
+          for tips on getting the most out of SwimTopia and other topics of interest.
+        </div>
+
+        <div style="margin-top: 10px; font-weight: 700">
+          Our mailing address is:
+        </div>
+
+        <div>
+          *|HTML:LIST_ADDRESS_HTML|* *|END:IF|*
+        </div>
+
+        <div style="margin-top: 10px">
+          Want to change how you receive these emails?
+        </div>
+
+        <div style="margin-top: 6px">
+          <a
+            href="*|UPDATE_PROFILE|*"
+            style="color:#ffffff;text-decoration:underline"
+          >
+            Update preferences
+          </a>
+          &nbsp;|&nbsp;
+          <a
+            href="*|UNSUB|*"
+            style="color:#ffffff;text-decoration:underline"
+          >
+            Unsubscribe
+          </a>
+        </div>
+
+        <div style="margin-top: 10px">
+          *|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*
+        </div>
+      </div>
     </td>
   </tr>
 </table>
+
+</td>
+</tr>
+</table>
+
 
 
 
