@@ -2222,10 +2222,43 @@ If your team plans to collect fees online, it is essential
 
 
 <!-- =========================
-     LAST SECTION (CLEANED)
-     640-wide, no Postcards assets
+     LAST SECTION (FINAL)
+     640-wide, Arch + Background Restored
+     No Postcards promo/tracking
 ========================== -->
 
+<!-- TOP ARCH -->
+<table
+  class="pc-component"
+  style="width: 640px; max-width: 640px"
+  width="640"
+  align="center"
+  border="0"
+  cellspacing="0"
+  cellpadding="0"
+  role="presentation"
+>
+  <tr>
+    <td align="center" valign="top" style="background-color: #ffffff" bgcolor="#ffffff">
+      <img
+        src="https://mamahubbs.github.io/email-templates/images/arch-2da02cf1.png"
+        width="100%"
+        height="auto"
+        alt=""
+        style="
+          display: block;
+          width: 100%;
+          height: auto;
+          border: 0;
+          outline: 0;
+          line-height: 100%;
+        "
+      />
+    </td>
+  </tr>
+</table>
+
+<!-- NEED HELP + REFERRAL WRAPPER -->
 <table
   class="pc-component"
   style="width: 640px; max-width: 640px"
@@ -2342,7 +2375,9 @@ If your team plans to collect fees online, it is essential
 
       <!-- SPACER -->
       <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation">
-        <tr><td style="height: 20px; line-height: 20px; font-size: 1px">&nbsp;</td></tr>
+        <tr>
+          <td style="height: 20px; line-height: 20px; font-size: 1px">&nbsp;</td>
+        </tr>
       </table>
 
       <!-- REFERRAL CARD -->
@@ -2383,8 +2418,15 @@ If your team plans to collect fees online, it is essential
               Win-win!
             </div>
 
-            <!-- Button (no nested <a>, matches your 200px / 14px style) -->
-            <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" style="margin: 0 auto">
+            <!-- Button (matches your 200px / 14px style) -->
+            <table
+              role="presentation"
+              border="0"
+              cellspacing="0"
+              cellpadding="0"
+              align="center"
+              style="margin: 0 auto"
+            >
               <tr>
                 <td align="center" bgcolor="#1c8caa" style="border-radius: 12px">
                   <a
@@ -2419,7 +2461,7 @@ If your team plans to collect fees online, it is essential
 </table>
 
 <!-- =========================
-     FOOTER (CLEAN + SIMPLE)
+     FOOTER (WITH BACKGROUND)
 ========================== -->
 <table
   class="pc-component"
@@ -2434,8 +2476,15 @@ If your team plans to collect fees online, it is essential
   <tr>
     <td
       valign="top"
-      style="padding: 20px 40px 30px; background-color: #165874"
+      background="https://mamahubbs.github.io/email-templates/images/header_2-32e2f046.png"
       bgcolor="#165874"
+      style="
+        background-image: url('https://mamahubbs.github.io/email-templates/images/header_2-32e2f046.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 30px 40px;
+      "
     >
       <div
         style="
@@ -2444,18 +2493,17 @@ If your team plans to collect fees online, it is essential
           line-height: 20px;
           color: #ffffff;
           text-align: center;
-          font-style: italic;
         "
       >
         <div style="font-style: italic">
           Copyright © *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.
         </div>
 
-        <div style="font-style: normal; margin-top: 6px">
+        <div style="margin-top: 6px">
           SwimTopia does not sell or share your contact details with outside companies.
         </div>
 
-        <div style="font-style: normal; margin-top: 10px">
+        <div style="margin-top: 10px">
           Read our
           <a
             href="https://www.swimtopia.com/blog/"
@@ -2466,17 +2514,17 @@ If your team plans to collect fees online, it is essential
           for tips on getting the most out of SwimTopia and other topics of interest.
         </div>
 
-        <div style="font-style: normal; margin-top: 10px; font-weight: 700">
+        <div style="margin-top: 10px; font-weight: 700">
           Our mailing address is:
         </div>
-        <div style="font-style: normal">
+        <div>
           *|HTML:LIST_ADDRESS_HTML|* *|END:IF|*
         </div>
 
-        <div style="font-style: normal; margin-top: 10px">
+        <div style="margin-top: 10px">
           Want to change how you receive these emails?
         </div>
-        <div style="font-style: normal">
+        <div>
           You can
           <a
             href="*|UPDATE_PROFILE|*"
@@ -2484,18 +2532,21 @@ If your team plans to collect fees online, it is essential
             >update your preferences</a
           >
           or
-          <a href="*|UNSUB|*" style="color: #ffffff; text-decoration: underline"
+          <a
+            href="*|UNSUB|*"
+            style="color: #ffffff; text-decoration: underline"
             >unsubscribe from this list</a
           >.
         </div>
 
-        <div style="font-style: normal; margin-top: 10px">
+        <div style="margin-top: 10px">
           *|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*
         </div>
       </div>
     </td>
   </tr>
 </table>
+
 
               
 
